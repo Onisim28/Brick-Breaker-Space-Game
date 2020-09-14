@@ -1,0 +1,99 @@
+body {
+
+    background: linear-gradient(-45deg, #a95b3f, #b83e6b, #328cab, #39ac8a);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+
+}
+
+
+#gameScreen {
+
+    margin-top: -240px;
+    margin-left: -5px;
+    border: 1px solid black;
+    background: linear-gradient(-45deg, #ac4325, #ab184e, #0d455a, #106651);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+
+
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+img {
+    display: none;
+}
+
+#level {
+    text-align: center;
+    margin-left: 1050px;
+    letter-spacing: 5px;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    font-size: 40px;
+
+    background: linear-gradient(-45deg, #cf7d69, #d4698f, #69bbde, #70d9bf);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+#lives {
+
+    text-align: center;
+    margin-left: 1050px;
+    letter-spacing: 5px;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    font-size: 40px;
+
+    background: linear-gradient(-45deg, #cf7d69, #d4698f, #69bbde, #70d9bf);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+
+}
+
+#bricks {
+
+    text-align: center;
+    margin-left: 1050px;
+    letter-spacing: 5px;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    font-size: 40px;
+
+    background: linear-gradient(-45deg, #cf7d69, #d4698f, #69bbde, #70d9bf);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+
+}
+
+#press_space {
+    text-align: center;
+    letter-spacing: 5px;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    font-size: 20px;
+
+    background: linear-gradient(-45deg, #cf7d69, #d4698f, #69bbde, #70d9bf);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+
+}
